@@ -1,0 +1,9 @@
+@media only screen and (max-width: 1000px)
+{
+   #navBar h1 {
+      float: none;
+      text-align: center;
+   }
+   
+
+}
