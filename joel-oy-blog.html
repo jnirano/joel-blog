@@ -12,6 +12,9 @@
     <!-- Style CSS  -->
     <link rel="stylesheet" href="./resources/b-styles.css">
     
+    <!-- Style CSS  -->
+    <link rel="stylesheet" href="./resources/mediaquery.css">
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="./vendours/bootstrap-5.0.0-dist/css/bootstrap.min.css">
    
@@ -19,31 +22,36 @@
     
   </head>
   <body>
+
     <header>  
-      <nav class="navbar navbar-expand nav-bar" id="navBar">
-        <div class="container-fluid d-flex justify-content-around">
-          <h1><a class="navbar-brand navBar-name" href="#">Joel Ogunniran </a></h1>
-            <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button> -->
+      <nav class=" navbar navbar-expand nav-bar" id="navBar">
+        <div class="container d-flex flex-wrap justify-content-around innerNav">
+          <div>
+            <h1>
+              <a class="navbar-brand navBar-name" href="#">Joel Ogunniran </a>
+            </h1>
+          </div>
           <div class="myNav-links">
-            <ul class="navbar-nav ms-auto myNav-items ">
-              <li class="nav-item px-2">
+            <ul class="navbar-nav me-5 ms-auto myNav-items">
+              <li class="nav-item px-2 me-2">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
-              <li class="nav-item px-2">
+              <li class="nav-item px-2 me-2">
                 <a class="nav-link" href="#">About me</a>
               </li>
-              <li class="nav-item px-2">
+              <li class="nav-item px-2 me-2">
                 <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item px-2 me-2">
+                <a class="nav-link" href="#">Contact</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
-      <section class="bg-success ">
-        <section class="container-fluid text-center blogTheme-title ">
-          <h2 class="blogTheme">Web Development Blog Articles</h2>
+      <section class="bg-success outerTheme-title ">
+        <section class="container-fluid text-center innerTheme-title1 ">
+          <h2 class="theme-title">Web Development Blog Articles</h2>
           <p> A precise, coherent and informative articles on Web Dev </p>
           <div class="d-flex justify-content-center">
             <p class="pe-4 ">Link up with me</p>
@@ -69,22 +77,6 @@
                 </svg>
               </a>
             </div>
-              
-            <!-- <div class="row mt-4 ">
-                    <div class="socials-nav ">
-                      <a href="https://github.com/jnirano" class="items-social"><i class="fa fa-github-square fa-2x"></i></a>
-                      <a href="https://www.linkedin.com/in/yinka-jo/" class="items-social"><i class="fa fa-linkedin-square fa-2x"></i></a>
-                      <a href="https://www.facebook.com/joelprecious" class="items-social"><i class="fa fa-facebook-official fa-2x"></i></a>
-                      <a href="" class="items-social"><i class="fa fa-envelope fa-2x"></i></a>
-                      <a href="" class="items-social"><i class="fa fa-skype fa-2x"></i></a>
-                    </div>
-                  </div>  -->
-
-            <!-- <ul>
-              <li></li>
-              <li></li>
-              <li></li>
-            </ul> -->
           </div>
         </section>
       </section>
@@ -93,7 +85,7 @@
     <section class=" BlogNews-search ">
       <div class="row mt-2">
         <div class="d-flex flex-md-wrap justify-content-center container-fluid col-9">
-          <h3 class="subscribe pe-4">Get weekly posts</h3>
+          <h4 class="subscribe pe-4">Get weekly posts</h4>
           <form class="row g-3">
             <div class="col-auto">
               <label for="names" class="visually-hidden">Names</label>
@@ -188,7 +180,7 @@
       <section class="container-fluid bg-dark text-white text-center">
         <div class="row">
           <div class="copy-right">
-            copyright @  2021
+            copyright @ 2021
           </div>
           <div class="designed">
             Designed by Joel Ogunniran

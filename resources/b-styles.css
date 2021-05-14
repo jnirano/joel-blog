@@ -12,22 +12,25 @@ color: #7082ba; */
 html {
 	overflow-y: scroll;
 	box-sizing: border-box;
-	/* font-size: 100%/1.75; */
 }
 
 body {
 	color: #333;
    font-family: "Oswald,Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
 	line-height: 1.4;
-	background-color: #f8f8f9;
-	/* background-color: #bdb9b9cb; */
+	background-color: #fff;
 	font-size: 100%;
+
+	/* background-color: #bdb9b9cb; */
 }
 /* General Styles */
-h1, h2, h3, h4 {
+h1, h2{
 	line-height: 1.4;
 	margin-bottom: 1em;
 }
+ h3, h4 {
+
+ }
 #navBar ul li a{
 	font-size: 1.01rem;
 	color: #575e5b;
@@ -39,9 +42,20 @@ h1, h2, h3, h4 {
 }
 
 /* Header & NavBar */
+/* #nav-bar div .innerNav,
+{
+	display: flex;
+	
+
+} */
 .nav-bar{
-	background-color: rgb(190, 236, 243);
+	background-color: #f9f9f9;
+
+	/* background-color: #212529; */
+	/* background-color: #00aaff; */
+	/* color: #007acc; */
 }
+
 #navBar h1 a:hover,
 #navBar ul li a:hover{
 	color: #e2842c;
@@ -55,7 +69,7 @@ h1, h2, h3, h4 {
 .navBar-name{
 	color: #575e5b;
 	text-transform: uppercase;
-	font-weight: 500;
+	font-weight: 650;
 	letter-spacing: .03rem;
 }
 
@@ -73,10 +87,12 @@ h1, h2, h3, h4 {
 
 }
 .blogTheme{
+	background: rgb(235, 147, 147) url(https://bin.bnbstatic.com/static/images/blog/blog-inner-bg.jpg) no-repeat center;
+    height: 224px;
 	/* text-align: center; */
 	font-size: 250%;
 	font-weight: bold;
-	line-height: 4.5rem;
+	/* line-height: 4.5rem; */
 }
 
 
@@ -91,6 +107,33 @@ h1, h2, h3, h4 {
 	background-color: #fff;
 }
 
+    /* border-left: 2px solid #e2842c;
+    background-color: #f7f7f7; */
+
+	     /* background-color: #291f16
+		  color: #575e5b;
+		  color: #c6c6c6;
+		  color: ##83382b; */
+/* 
+		  @media only screen and (max-width: 1000px)
+#searchString {
+    width: 240px;
+} */
+
+/* #searchString {
+    width: 283px;
+    border: 0;
+    box-shadow: 0 1px 2px rgb(0 0 0 / 20%) inset;
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    padding: .3em .6em;
+    background-color: #f6f5ea;
+    margin-right: 0;
+}
+input[type=text] {
+    font-size: 100%;
+    -webkit-appearance: none;
+    border-radius: 0;
+} */
 
 /* Main Contents Buttons */
 
