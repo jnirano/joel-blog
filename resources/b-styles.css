@@ -1,4 +1,14 @@
-/* 
+
+
+/* TO DO LIST 
+1.	Add Comment for user 
+2. Add Like for user
+3. Add Share  for user
+4. Add Search for user
+5. Add Subscription form
+
+
+/*  */
 color: #7082ba; */
 
 /* Basic Resetting */
@@ -28,13 +38,13 @@ h1, h2{
 	line-height: 1.4;
 	margin-bottom: 1em;
 }
- h3, h4 {
+h3, h4 {
 
  }
 #navBar ul li a{
 	font-size: 1.01rem;
 	color: #575e5b;
-	letter-spacing: .1rem;
+	letter-spacing: .15rem;
 	font-weight: 500;
 }
 .myNav-links {
@@ -46,11 +56,11 @@ h1, h2{
 {
 	display: flex;
 	
-
+	
 } */
 .nav-bar{
 	background-color: #f9f9f9;
-
+	
 	/* background-color: #212529; */
 	/* background-color: #00aaff; */
 	/* color: #007acc; */
@@ -72,52 +82,70 @@ h1, h2{
 	font-weight: 650;
 	letter-spacing: .03rem;
 }
-
-.myNav-items{
-	
+.theme-title{
+	font-size: 310%;
+	font-weight: bold;
+	letter-spacing: .15rem;
 }
-.myNav-item{
-	
+.innerTheme-title p{
+	font-size: 125%;
+
+}
+/* Search */
+
+/* Subscribe Form */
+.subscribe-section div h3{
+	font-size: 140%;
 }
 
 /* Banner/ Blog Theme */
 .blogTheme-title h2 {
 	/* padding-left: 19rem; */
-	
-
 }
-.blogTheme{
+/* .blogTheme{
 	background: rgb(235, 147, 147) url(https://bin.bnbstatic.com/static/images/blog/blog-inner-bg.jpg) no-repeat center;
-    height: 224px;
-	/* text-align: center; */
+	height: 224px;
 	font-size: 250%;
 	font-weight: bold;
-	/* line-height: 4.5rem; */
-}
-
-
-
+	text-align: center; 
+	line-height: 4.5rem;
+} */
 
 /*Blog Main Contents */
 .blog-contents{
 	margin-left: auto;
 	margin-right: auto;
-	max-width: 55rem;
+	max-width: 53.5rem;
 	padding: .5rem .5rem; 
 	background-color: #fff;
 }
+.day-month, .year {
+	width: 100px;
+	font-size: 115%;
+	padding: 1% 2%;
+}
+.blog-title{
+	border-left: 2px solid rgb(170, 169, 169);
+}
+.blog-title h4{
+	font-size: 220%;
+	font-weight: bold;
+}
+#blogMessages div p{
+	font-style: 230%;
+}
 
-    /* border-left: 2px solid #e2842c;
-    background-color: #f7f7f7; */
+/* border-left: 2px solid #e2842c;
+background-color: #f7f7f7; */
 
-	     /* background-color: #291f16
-		  color: #575e5b;
-		  color: #c6c6c6;
-		  color: ##83382b; */
+/* background-color: #291f16
+color: #575e5b;
+color: #c6c6c6;
+color: ##83382b; */
 /* 
-		  @media only screen and (max-width: 1000px)
+@media only screen and (max-width: 1000px)
 #searchString {
-    width: 240px;
+	width: 240px;
 } */
 
 /* #searchString {
@@ -128,12 +156,12 @@ h1, h2{
     padding: .3em .6em;
     background-color: #f6f5ea;
     margin-right: 0;
-}
+	}
 input[type=text] {
-    font-size: 100%;
+	font-size: 100%;
     -webkit-appearance: none;
     border-radius: 0;
-} */
+	} */
 
 /* Main Contents Buttons */
 
@@ -147,4 +175,9 @@ input[type=text] {
 
 /* Footer */
 
+.social-links{
+	padding: .5em;
+	color: red;
+	font-size: medium;
+}
 
