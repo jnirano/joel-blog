@@ -20,8 +20,8 @@ color: #7082ba; */
 	padding: 0;
 }
 html {
-	overflow-y: scroll;
-	box-sizing: border-box;
+	/* overflow-y: scroll; */
+	/* box-sizing: border-box; */
 }
 
 body {
@@ -30,6 +30,7 @@ body {
 	line-height: 1.4;
 	background-color: #fff;
 	font-size: 100%;
+	overflow-x: hidden;
 
 	/* background-color: #bdb9b9cb; */
 }
@@ -89,7 +90,6 @@ h3, h4 {
 }
 .innerTheme-title p{
 	font-size: 125%;
-
 }
 /* Search */
 
@@ -101,6 +101,9 @@ h3, h4 {
 /* Banner/ Blog Theme */
 .blogTheme-title h2 {
 	/* padding-left: 19rem; */
+}
+.form-search input{
+	background-color: rgb(247, 243, 243);
 }
 /* .blogTheme{
 	background: rgb(235, 147, 147) url(https://bin.bnbstatic.com/static/images/blog/blog-inner-bg.jpg) no-repeat center;
@@ -132,8 +135,10 @@ h3, h4 {
 	font-weight: bold;
 }
 #blogMessages div p{
-	font-style: 230%;
+	font-size: 115%;
+	letter-spacing: .02em;
 }
+
 
 /* border-left: 2px solid #e2842c;
 background-color: #f7f7f7; */
@@ -159,25 +164,17 @@ color: ##83382b; */
 	}
 input[type=text] {
 	font-size: 100%;
-    -webkit-appearance: none;
     border-radius: 0;
 	} */
 
 /* Main Contents Buttons */
 
 
-
-/* Side Bar */
-
-/* Side Bar Buttons */
-
-
-
 /* Footer */
 
 .social-links{
 	padding: .5em;
-	color: red;
+	color: #bdb7b7;
 	font-size: medium;
 }
 
